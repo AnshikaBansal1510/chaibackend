@@ -62,7 +62,8 @@ A **server** is a **software** that "serves" requests by:
 ---
 
 ## 📁 Typical File Structure
-project-root/
+
+```project-root/
 │── package.json # Project metadata & dependencies
 │── .env # Environment variables
 │── README.md # Documentation
@@ -81,3 +82,4 @@ project-root/
 ├── middlewares/ # Auth, validation, logging, etc.
 ├── utils/ # Utility/helper functions
 └── ... # Other modules (as needed)
+```
