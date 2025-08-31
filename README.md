@@ -83,3 +83,16 @@ A **server** is a **software** that "serves" requests by:
 ├── utils/ # Utility/helper functions
 └── ... # Other modules (as needed)
 ```
+
+### ⚡ Additional Concepts
+
+- **Hot Reloading** → Lets you see code changes instantly in your running app without restarting the server or losing state. In Node.js, tools like `nodemon` or `pm2` are used to auto-restart on changes.  
+
+- **`app.get()` vs `app.listen()`** →  
+  - `app.get(path, callback)` defines a route to handle a **GET request** (e.g., `/login`).  
+  - `app.listen(port, callback)` actually starts the server and makes it listen for incoming requests on a **port**.  
+
+- **Environment Variables (`process.env`)** →  
+  - Store sensitive data (DB passwords, API keys) and configuration (PORT, URLs) outside the source code.  
+  - Makes apps portable across environments (local, staging, production).  
+  - Example: `const PORT = process.env.PORT || 4000;` 
