@@ -73,8 +73,9 @@ A **server** is a **software** that "serves" requests by:
 └── src/
 │── index.js # DB connection setup
 │── app.js # Express app config, cookies, URL encoding
-│
 ├── constants/ # Enums, DB names, constants
+│
+│
 ├── db/ # Database connection & setup
 ├── models/ # Data schemas (e.g. User, Product)
 ├── controllers/ # Request handlers / business logic
