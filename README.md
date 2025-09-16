@@ -97,3 +97,5 @@ A **server** is a **software** that "serves" requests by:
   - Store sensitive data (DB passwords, API keys) and configuration (PORT, URLs) outside the source code.  
   - Makes apps portable across environments (local, staging, production).  
   - Example: `const PORT = process.env.PORT || 4000;`
+ 
+    
